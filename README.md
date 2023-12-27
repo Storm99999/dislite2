@@ -2,6 +2,8 @@
  The 2nd Generation of the Dislite Discord Client.
 ![image](https://github.com/Storm99999/dislite2/assets/87811650/e984a44c-cf18-48cd-b6ee-324d87358ff5)
 
+# How is it handled?
+This project is for Windows only. It uses WinForms, to render a WebView object, and that's the screen you see. All the eye-candy, visuals and text messages are shown within HTML. But C# does handle API requests, and models. The C# App communicates back and forth with the WebView object.
  
 # Features
 * No Bloat
